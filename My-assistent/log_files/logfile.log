@@ -1,0 +1,1947 @@
+tokenization_utils_base.py:1802 #INFO     [2023-05-04 07:45:40,561] - transformers.tokenization_utils_base - loading file vocab.json from cache at C:\Users\ASUS/.cache\huggingface\hub\models--sberbank-ai--rugpt3medium_based_on_gpt2\snapshots\a65111a324aece48c68a468da9dc6fa3d2a16f2d\vocab.json
+tokenization_utils_base.py:1802 #INFO     [2023-05-04 07:45:40,562] - transformers.tokenization_utils_base - loading file merges.txt from cache at C:\Users\ASUS/.cache\huggingface\hub\models--sberbank-ai--rugpt3medium_based_on_gpt2\snapshots\a65111a324aece48c68a468da9dc6fa3d2a16f2d\merges.txt
+tokenization_utils_base.py:1802 #INFO     [2023-05-04 07:45:40,562] - transformers.tokenization_utils_base - loading file added_tokens.json from cache at None
+tokenization_utils_base.py:1802 #INFO     [2023-05-04 07:45:40,563] - transformers.tokenization_utils_base - loading file special_tokens_map.json from cache at None
+tokenization_utils_base.py:1802 #INFO     [2023-05-04 07:45:40,563] - transformers.tokenization_utils_base - loading file tokenizer_config.json from cache at None
+configuration_utils.py:668 #INFO     [2023-05-04 07:45:40,582] - transformers.configuration_utils - loading configuration file config.json from cache at C:\Users\ASUS/.cache\huggingface\hub\models--sberbank-ai--rugpt3medium_based_on_gpt2\snapshots\a65111a324aece48c68a468da9dc6fa3d2a16f2d\config.json
+configuration_utils.py:720 #INFO     [2023-05-04 07:45:40,612] - transformers.configuration_utils - Model config GPT2Config {
+  "_name_or_path": "sberbank-ai/rugpt3medium_based_on_gpt2",
+  "activation_function": "gelu_new",
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "id2label": {
+    "0": "LABEL_0"
+  },
+  "initializer_range": 0.02,
+  "label2id": {
+    "LABEL_0": 0
+  },
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 2048,
+  "n_embd": 1024,
+  "n_head": 16,
+  "n_inner": null,
+  "n_layer": 24,
+  "n_positions": 2048,
+  "n_special": 0,
+  "output_past": true,
+  "predict_special_tokens": true,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "transformers_version": "4.27.4",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+
+base.py:494 #INFO     [2023-05-04 07:45:43,610] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:08:10,225] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:12:41,786] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:27:57,354] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:30:09,098] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:35:11,303] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:38:23,507] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:39:21,567] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:40:49,930] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:41:23,628] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:44:42,792] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:57:00,674] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 18:59:57,635] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:03:14,733] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:03:51,607] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:05:52,745] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:13:01,238] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:19:54,496] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:50:59,071] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:52:17,315] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:55:59,282] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:57:01,186] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:57:51,488] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:58:44,573] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 19:59:23,745] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:00:33,862] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:12:12,476] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:13:13,589] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:16:43,438] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:17:12,970] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:20:46,516] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:46:04,455] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:50:07,940] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:51:13,323] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:52:26,486] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:54:02,660] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:55:55,567] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 20:59:17,732] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 21:02:54,891] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 21:11:07,866] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 21:11:26,857] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-04 22:24:54,004] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 08:00:38,457] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1211 #ERROR    [2023-05-05 08:01:29,481] - __main__ - Не удаётся включить песни
+expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\My-assistent\app.py", line 1208, in start_music
+    os.startfile(os.path.join(self.music_path, song))
+  File "C:\Python311\lib\ntpath.py", line 104, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+base.py:494 #INFO     [2023-05-05 15:42:08,809] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:42:51,122] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:44:08,859] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:44:30,575] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:45:52,478] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:47:43,500] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:48:19,229] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:50:53,758] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:55:40,964] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 15:56:37,079] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:00:37,119] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:01:37,538] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:02:35,701] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:03:18,754] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:04:25,575] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:04:55,817] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:05:27,832] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:06:05,724] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:18:30,688] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:19:18,629] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:24:19,244] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:26:17,409] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:33:37,102] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:34:11,731] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:41:41,967] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:42:13,813] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:52:31,894] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 16:58:58,602] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 17:00:16,779] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 17:03:29,553] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 17:09:07,529] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 17:55:07,702] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 17:55:51,300] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 18:06:42,352] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 18:12:54,900] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 18:39:04,378] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-05 18:47:34,307] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-06 14:33:31,341] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-06 14:34:38,615] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2023-05-06 14:44:01,212] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001A332B32B90>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-06 14:46:17,769] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-06 14:48:49,375] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-06 14:55:46,734] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2023-05-06 15:02:46,571] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000200C58A3220>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-06 19:51:48,213] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1288 #INFO     [2023-05-06 20:00:45,665] - __main__ - Текстовый поиск в вики
+app.py:1300 #INFO     [2023-05-06 20:00:45,665] - __main__ - Поиск в вики
+app.py:1288 #INFO     [2023-05-06 20:02:55,841] - __main__ - Текстовый поиск в вики
+app.py:1300 #INFO     [2023-05-06 20:02:55,842] - __main__ - Поиск в вики
+app.py:1288 #INFO     [2023-05-06 20:03:11,101] - __main__ - Текстовый поиск в вики
+app.py:1300 #INFO     [2023-05-06 20:03:11,102] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:05:18,082] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-06 20:09:40,014] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1288 #INFO     [2023-05-06 20:09:43,947] - __main__ - Текстовый поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:09:43,947] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:10:06,193] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1288 #INFO     [2023-05-06 20:10:09,089] - __main__ - Текстовый поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:10:09,090] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:12:30,941] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1288 #INFO     [2023-05-06 20:12:38,872] - __main__ - Текстовый поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:12:38,872] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:13:29,971] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1288 #INFO     [2023-05-06 20:14:07,024] - __main__ - Текстовый поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:14:07,024] - __main__ - Поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:16:35,726] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:20:19,472] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1301 #INFO     [2023-05-06 20:21:19,733] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:22:25,303] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1301 #INFO     [2023-05-06 20:22:45,033] - __main__ - Поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:23:53,155] - __main__ - Поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:24:14,305] - __main__ - Поиск в вики
+app.py:1288 #INFO     [2023-05-06 20:29:23,747] - __main__ - Текстовый поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:29:23,748] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:30:29,659] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2023-05-06 20:31:07,454] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001B60E2048B0>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-06 20:33:37,742] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1288 #INFO     [2023-05-06 20:35:58,333] - __main__ - Текстовый поиск в вики
+app.py:1301 #INFO     [2023-05-06 20:35:58,333] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-06 20:37:08,208] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-06 20:39:16,574] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2023-05-06 20:47:31,613] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000019AFE69CB50>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-06 20:52:52,301] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000238AC26CE80>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-06 21:44:57,756] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023C9A580DF0>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-07 11:13:51,368] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1267 #INFO     [2023-05-07 11:23:57,929] - __main__ - Текстовый поиск в вики
+app.py:1279 #INFO     [2023-05-07 11:23:57,930] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-07 11:28:32,710] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1267 #INFO     [2023-05-07 11:28:50,473] - __main__ - Текстовый поиск в вики
+app.py:1279 #INFO     [2023-05-07 11:28:50,474] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-08 18:05:05,428] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-09 17:23:46,294] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-10 07:56:22,892] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2023-05-10 07:56:49,040] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000018880931450>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+app.py:1266 #INFO     [2023-05-10 15:57:27,026] - __main__ - Текстовый поиск в вики
+app.py:1279 #INFO     [2023-05-10 15:57:27,028] - __main__ - Поиск в вики
+base.py:494 #INFO     [2023-05-10 17:20:23,558] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-10 17:29:05,174] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-10 17:31:59,149] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-10 17:32:52,022] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-10 17:36:55,373] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-10 17:37:08,959] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-10 17:38:41,166] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-10 17:39:02,795] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-10 17:39:40,046] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-10 17:40:24,282] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-10 17:41:05,929] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-10 17:44:06,492] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-10 17:44:34,616] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-10 19:04:00,891] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-10 19:04:53,281] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-10 19:06:08,743] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-10 20:07:09,728] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-11 19:03:46,496] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:499 #ERROR    [2023-05-11 19:04:13,705] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EAD6112D40>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-11 19:04:49,949] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-11 19:56:49,545] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-11 19:57:44,119] - reminder - Getting datetime and text from voice reminder:
+{text}
+reminder.py:62 #ERROR    [2023-05-11 19:57:44,121] - reminder - Can't find numeric word in words:
+{words}
+base.py:494 #INFO     [2023-05-11 19:58:48,939] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-11 19:59:06,766] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-11 20:09:12,344] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-11 20:16:39,158] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-11 20:17:22,129] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-11 20:25:05,277] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-11 20:25:49,307] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-11 20:25:49,545] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2023-05-11 20:30:54,737] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000206D5A030A0>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-11 20:30:54,742] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000206D5A03940>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-12 20:58:35,289] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-12 20:58:35,490] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2023-05-12 22:13:30,514] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000250004C2DA0>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-12 22:13:30,515] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000250004C3640>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-12 22:14:26,908] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001C9CC622C20>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-12 22:14:26,913] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001C9CC6234C0>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-12 22:15:38,652] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5AE8E2D70>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2023-05-12 22:15:38,656] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002C5AE8E3610>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-13 13:21:29,132] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 13:21:29,358] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 14:13:26,657] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 14:13:26,826] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 14:16:56,548] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 14:16:56,723] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 14:35:31,557] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 14:35:31,964] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 15:11:03,361] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 15:11:03,530] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 15:11:52,710] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 15:11:52,875] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 15:13:41,306] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-13 15:13:41,483] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:02:39,499] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:02:39,781] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:12:39,131] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:12:39,431] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:14:37,495] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:14:37,806] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:15:16,508] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:15:16,817] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:16:30,856] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:16:31,056] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:18:30,558] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:18:30,765] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:21:09,590] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:21:09,889] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:22:38,055] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:22:38,383] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:36:28,386] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:36:28,927] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:42:23,021] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:42:23,225] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:45:27,339] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:45:27,652] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:48:14,554] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:48:14,761] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:50:22,356] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:50:22,555] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:50:50,002] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:50:50,209] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:51:43,964] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:51:44,147] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:52:38,439] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:52:38,617] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:53:29,506] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:53:29,708] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:56:02,315] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:56:02,521] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:56:32,216] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:56:32,433] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:59:44,216] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 13:59:44,408] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:09:50,494] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:09:50,727] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:11:22,165] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:11:22,370] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:13:12,759] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:13:12,966] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:21:06,766] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:21:06,972] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:27:36,192] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 14:27:36,394] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 15:39:59,365] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 15:39:59,573] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 15:56:44,513] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 15:56:44,719] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 15:57:52,620] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 15:57:52,919] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:00:08,085] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:00:08,290] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:01:08,399] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:01:08,707] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:02:46,196] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:02:46,497] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:06:15,187] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:06:15,399] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:12:04,356] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:12:04,575] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:26:45,002] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:26:45,184] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:35:16,383] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:35:16,588] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:44:08,662] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:44:08,859] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:46:01,176] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:46:01,396] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:49:55,363] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-14 16:49:55,583] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-15 07:07:32,045] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-15 07:08:07,680] - reminder - Getting datetime and text from voice reminder:
+{text}
+reminder.py:62 #ERROR    [2023-05-15 07:08:07,684] - reminder - Can't find numeric word in words:
+{words}
+app.py:1344 #INFO     [2023-05-15 07:08:07,685] - app.main - Got reminder settings None, None, Не могу определить числовое значение интервала времени
+reminder.py:77 #INFO     [2023-05-15 07:08:43,879] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-15 07:10:08,484] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:77 #INFO     [2023-05-15 07:11:13,776] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-15 07:12:40,168] - geocoder.base - Requested http://ipinfo.io/json
+app.py:1294 #INFO     [2023-05-15 07:13:48,914] - app.main - Текстовый поиск в вики
+app.py:1307 #INFO     [2023-05-15 07:13:48,918] - app.main - Поиск в вики
+base.py:499 #ERROR    [2023-05-15 16:04:37,103] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002411466FDC0>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:494 #INFO     [2023-05-15 16:05:20,892] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-15 16:13:06,694] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-15 18:34:19,936] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2023-05-15 18:52:56,286] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:78 #INFO     [2023-05-15 18:54:25,146] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-15 18:56:00,261] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:78 #INFO     [2023-05-15 18:56:27,149] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-15 18:57:52,423] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:79 #INFO     [2023-05-15 18:58:53,044] - reminder - Getting datetime and text from voice reminder:
+{text}
+base.py:494 #INFO     [2023-05-15 19:01:01,380] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:79 #INFO     [2023-05-15 19:01:12,440] - reminder - Getting datetime and text from voice reminder:
+{text}
+app.py:1343 #INFO     [2023-05-15 19:01:12,442] - app.main - Got reminder settings 2023-05-15 20:00:12.441617, поесть, None
+base.py:494 #INFO     [2023-05-15 19:01:43,639] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:79 #INFO     [2023-05-15 19:01:55,807] - reminder - Getting datetime and text from voice reminder:
+{text}
+reminder.py:64 #ERROR    [2023-05-15 19:01:55,808] - reminder - Can't find numeric word in words:
+{words}
+app.py:1343 #INFO     [2023-05-15 19:01:55,809] - app.main - Got reminder settings None, None, Не могу определить числовое значение интервала времени
+reminder.py:79 #INFO     [2023-05-15 19:02:13,408] - reminder - Getting datetime and text from voice reminder:
+{text}
+app.py:1343 #INFO     [2023-05-15 19:02:13,408] - app.main - Got reminder settings 2023-05-15 19:07:13.408754, поесть, None
+base.py:494 #INFO     [2023-05-15 19:06:38,981] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:79 #INFO     [2023-05-15 19:07:02,798] - reminder - Getting datetime and text from voice reminder:
+{text}
+app.py:1343 #INFO     [2023-05-15 19:07:02,798] - app.main - Got reminder settings 2023-05-15 19:12:02.798953, поесть, None
+base.py:494 #INFO     [2023-05-15 19:13:19,957] - geocoder.base - Requested http://ipinfo.io/json
+reminder.py:79 #INFO     [2023-05-15 19:17:39,063] - reminder - Getting datetime and text from voice reminder:
+{text}
+app.py:1348 #INFO     [2023-05-15 19:17:39,064] - app.main - Got reminder settings 2023-05-15 19:22:39.064662, поесть, None
+app.py:188 #INFO     [2024-03-24 14:06:50,846] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 14:06:53,283] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 14:06:53,491] - geocoder.base - Requested http://ipinfo.io/json
+app.py:188 #INFO     [2024-03-24 14:11:58,636] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 14:12:00,995] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 14:12:01,239] - geocoder.base - Requested http://ipinfo.io/json
+app.py:493 #INFO     [2024-03-24 14:12:11,631] - app.main - Поиск в вики
+app.py:195 #INFO     [2024-03-24 14:13:15,608] - app.main - Rebuilding task frames
+app.py:188 #INFO     [2024-03-24 14:21:28,724] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 14:21:29,713] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 14:21:29,922] - geocoder.base - Requested http://ipinfo.io/json
+app.py:188 #INFO     [2024-03-24 14:23:11,622] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 14:23:12,622] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 14:23:12,843] - geocoder.base - Requested http://ipinfo.io/json
+app.py:188 #INFO     [2024-03-24 14:25:14,147] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 14:25:15,199] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 14:25:15,388] - geocoder.base - Requested http://ipinfo.io/json
+app.py:493 #INFO     [2024-03-24 14:25:44,663] - app.main - Поиск в вики
+app.py:493 #INFO     [2024-03-24 14:25:58,419] - app.main - Поиск в вики
+app.py:195 #INFO     [2024-03-24 14:26:38,442] - app.main - Rebuilding task frames
+app.py:195 #INFO     [2024-03-24 14:29:54,535] - app.main - Rebuilding task frames
+app.py:188 #INFO     [2024-03-24 14:36:53,433] - app.main - Creating task frames
+base.py:499 #ERROR    [2024-03-24 14:36:55,680] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E6509CE7D0>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+base.py:499 #ERROR    [2024-03-24 14:36:55,680] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /json (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E650DFC610>: Failed to resolve 'ipinfo.io' ([Errno 11001] getaddrinfo failed)"))
+app.py:188 #INFO     [2024-03-24 14:51:53,483] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 14:51:55,711] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 14:51:55,887] - geocoder.base - Requested http://ipinfo.io/json
+app.py:188 #INFO     [2024-03-24 15:00:02,604] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 15:00:04,451] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 15:00:04,657] - geocoder.base - Requested http://ipinfo.io/json
+app.py:188 #INFO     [2024-03-24 15:17:57,704] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 15:17:59,747] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 15:17:59,927] - geocoder.base - Requested http://ipinfo.io/json
+app.py:188 #INFO     [2024-03-24 15:20:35,982] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 15:20:38,166] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 15:20:38,359] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 15:34:58,563] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 15:35:00,459] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 15:35:00,670] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 15:39:32,189] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 15:39:34,008] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 15:39:34,278] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 18:11:33,323] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 18:11:34,471] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 18:11:34,645] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 18:33:21,273] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 18:33:21,970] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 18:33:22,166] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 18:36:42,531] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 18:36:43,078] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 18:36:43,254] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 18:40:05,893] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 18:40:06,569] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 18:40:06,742] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 18:49:19,764] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 18:49:20,889] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 18:49:21,060] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 18:54:16,700] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 18:54:17,558] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 18:54:17,727] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 18:56:34,515] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 18:56:35,036] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 18:56:35,216] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 18:56:40,105] - app.main - Rebuilding task frames
+app.py:228 #INFO     [2024-03-24 19:01:43,398] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:01:44,059] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:01:44,235] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 19:02:42,373] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:02:43,828] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:02:44,016] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 19:21:27,869] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 19:21:32,448] - app.main - Rebuilding task frames
+app.py:228 #INFO     [2024-03-24 19:22:03,783] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:22:04,751] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:22:04,928] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 19:22:14,015] - app.main - Rebuilding task frames
+app.py:228 #INFO     [2024-03-24 19:23:27,769] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:23:28,438] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:23:28,610] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 19:27:09,886] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:27:10,390] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:27:10,566] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 19:42:34,335] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:42:35,088] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:42:35,290] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 19:43:26,366] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:43:26,861] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:43:27,051] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 19:57:55,432] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 19:57:56,347] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 19:57:56,609] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 20:03:13,707] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 20:03:15,001] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 20:03:15,352] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 20:07:10,487] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 20:07:26,315] - app.main - Rebuilding task frames
+app.py:533 #INFO     [2024-03-24 20:09:25,792] - app.main - Поиск в вики
+app.py:228 #INFO     [2024-03-24 20:16:23,406] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 20:16:25,027] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 20:16:25,408] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 20:17:05,203] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 20:17:08,811] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 20:17:27,666] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 20:17:41,567] - app.main - Rebuilding task frames
+base.py:494 #INFO     [2024-03-24 20:43:30,845] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 20:57:19,785] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 20:57:21,635] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 20:57:22,039] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 21:01:12,635] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 21:01:14,264] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 21:01:14,781] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 21:06:27,967] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 21:06:30,985] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 21:06:31,405] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 21:17:14,781] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 21:17:17,738] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 21:17:18,094] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 21:22:35,998] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 21:22:38,769] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 21:22:39,174] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 21:49:49,425] - app.main - Rebuilding task frames
+app.py:228 #INFO     [2024-03-24 21:51:42,107] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 21:51:44,584] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 21:51:45,106] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 21:52:32,002] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 21:52:51,798] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:00:22,789] - app.main - Setting a voice reminder by commend \\:
+нагадай мені один завтра
+reminder.py:79 #INFO     [2024-03-24 22:00:22,793] - reminder - Getting datetime and text from voice reminder:
+нагадай мені один завтра
+app.py:572 #INFO     [2024-03-24 22:00:22,798] - app.main - Got reminder settings 2024-03-25 23:00:22.794321, нагадай мені один завтра, None
+app.py:303 #INFO     [2024-03-24 22:00:22,801] - app.main - Creating task нагадай мені один завтра 2024-03-25 23:00:22.794321
+app.py:265 #INFO     [2024-03-24 22:00:22,803] - app.main - Schedule task 0 нагадай мені один завтра 2024-03-25 23:00:22.794321
+app.py:275 #INFO     [2024-03-24 22:00:22,807] - app.main - Setting task 0 frame UI: нагадай мені один завтра 2024-03-25 23:00:22.794321
+app.py:300 #INFO     [2024-03-24 22:00:22,817] - app.main - Task frame 0 set
+app.py:235 #INFO     [2024-03-24 22:00:40,387] - app.main - Rebuilding task frames
+app.py:228 #INFO     [2024-03-24 22:02:47,195] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:02:48,976] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:02:49,371] - geocoder.base - Requested http://ipinfo.io/json
+app.py:235 #INFO     [2024-03-24 22:03:06,310] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:05:06,575] - app.main - Setting a voice reminder by commend \\:
+нагадай мені випити о 22
+reminder.py:79 #INFO     [2024-03-24 22:05:06,602] - reminder - Getting datetime and text from voice reminder:
+нагадай мені випити о 22
+app.py:572 #INFO     [2024-03-24 22:05:06,620] - app.main - Got reminder settings 2024-03-24 23:00:06.619116, нагадай мені випити о 22, None
+app.py:303 #INFO     [2024-03-24 22:05:06,648] - app.main - Creating task нагадай мені випити о 22 2024-03-24 23:00:06.619116
+app.py:265 #INFO     [2024-03-24 22:05:06,676] - app.main - Schedule task 0 нагадай мені випити о 22 2024-03-24 23:00:06.619116
+app.py:275 #INFO     [2024-03-24 22:05:06,702] - app.main - Setting task 0 frame UI: нагадай мені випити о 22 2024-03-24 23:00:06.619116
+app.py:300 #INFO     [2024-03-24 22:05:06,746] - app.main - Task frame 0 set
+app.py:235 #INFO     [2024-03-24 22:05:21,195] - app.main - Rebuilding task frames
+app.py:534 #INFO     [2024-03-24 22:05:44,191] - app.main - Пошук у вікіпедії
+app.py:547 #ERROR    [2024-03-24 22:05:44,358] - app.main - Сталася помилка: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BD%D0%B0%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9+%D0%BC%D0%B5%D0%BD%D1%96+%D0%B2%D0%B8%D0%BF%D0%B8%D1%82%D0%B8+%D0%BE+24&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001C9A83C79D0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "C:\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x000001C9A83C79D0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BD%D0%B0%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9+%D0%BC%D0%B5%D0%BD%D1%96+%D0%B2%D0%B8%D0%BF%D0%B8%D1%82%D0%B8+%D0%BE+24&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001C9A83C79D0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\My-assistent\app.py", line 538, in search_in_wiki
+    page = wikipedia.page(question)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 270, in page
+    results, suggestion = search(title, results=1, suggestion=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\util.py", line 28, in __call__
+    ret = self._cache[key] = self.fn(*args, **kwargs)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 103, in search
+    raw_results = _wiki_request(search_params)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 737, in _wiki_request
+    r = requests.get(API_URL, params=params, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BD%D0%B0%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9+%D0%BC%D0%B5%D0%BD%D1%96+%D0%B2%D0%B8%D0%BF%D0%B8%D1%82%D0%B8+%D0%BE+24&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001C9A83C79D0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+app.py:235 #INFO     [2024-03-24 22:06:03,464] - app.main - Rebuilding task frames
+app.py:275 #INFO     [2024-03-24 22:06:03,485] - app.main - Setting task 0 frame UI:  None
+app.py:300 #INFO     [2024-03-24 22:06:03,523] - app.main - Task frame 0 set
+app.py:235 #INFO     [2024-03-24 22:06:08,200] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:06:32,779] - app.main - Setting a voice reminder by commend \\:
+нагадай мені випити о 00
+reminder.py:79 #INFO     [2024-03-24 22:06:32,795] - reminder - Getting datetime and text from voice reminder:
+нагадай мені випити о 00
+app.py:572 #INFO     [2024-03-24 22:06:32,818] - app.main - Got reminder settings 2024-03-24 23:00:32.818018, нагадай мені випити о 00, None
+app.py:303 #INFO     [2024-03-24 22:06:32,839] - app.main - Creating task нагадай мені випити о 00 2024-03-24 23:00:32.818018
+app.py:265 #INFO     [2024-03-24 22:06:32,856] - app.main - Schedule task 1 нагадай мені випити о 00 2024-03-24 23:00:32.818018
+app.py:275 #INFO     [2024-03-24 22:06:32,882] - app.main - Setting task 1 frame UI: нагадай мені випити о 00 2024-03-24 23:00:32.818018
+app.py:300 #INFO     [2024-03-24 22:06:32,901] - app.main - Task frame 1 set
+app.py:235 #INFO     [2024-03-24 22:06:44,935] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:07:17,893] - app.main - Setting a voice reminder by commend \\:
+нагадай мені випити завтра у 17 годин 23 хвилини
+reminder.py:79 #INFO     [2024-03-24 22:07:17,915] - reminder - Getting datetime and text from voice reminder:
+нагадай мені випити завтра у 17 годин 23 хвилини
+app.py:572 #INFO     [2024-03-24 22:07:17,937] - app.main - Got reminder settings 2024-03-25 17:23:17.937533, нагадай мені випити, None
+app.py:303 #INFO     [2024-03-24 22:07:17,958] - app.main - Creating task нагадай мені випити 2024-03-25 17:23:17.937533
+app.py:265 #INFO     [2024-03-24 22:07:17,975] - app.main - Schedule task 2 нагадай мені випити 2024-03-25 17:23:17.937533
+app.py:275 #INFO     [2024-03-24 22:07:18,002] - app.main - Setting task 2 frame UI: нагадай мені випити 2024-03-25 17:23:17.937533
+app.py:300 #INFO     [2024-03-24 22:07:18,042] - app.main - Task frame 2 set
+app.py:235 #INFO     [2024-03-24 22:07:33,544] - app.main - Rebuilding task frames
+app.py:228 #INFO     [2024-03-24 22:15:50,272] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:15:53,407] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:15:53,796] - geocoder.base - Requested http://ipinfo.io/json
+app.py:570 #INFO     [2024-03-24 22:16:44,501] - app.main - Setting a voice reminder by commend \\:
+нагадай мені попити о 23
+reminder.py:79 #INFO     [2024-03-24 22:16:44,569] - reminder - Getting datetime and text from voice reminder:
+нагадай мені попити о 23
+app.py:572 #INFO     [2024-03-24 22:16:44,633] - app.main - Got reminder settings 2024-03-24 23:00:44.633614, нагадай мені попити о 23, None
+app.py:303 #INFO     [2024-03-24 22:16:44,689] - app.main - Creating task нагадай мені попити о 23 2024-03-24 23:00:44.633614
+app.py:265 #INFO     [2024-03-24 22:16:44,752] - app.main - Schedule task 0 нагадай мені попити о 23 2024-03-24 23:00:44.633614
+app.py:275 #INFO     [2024-03-24 22:16:44,816] - app.main - Setting task 0 frame UI: нагадай мені попити о 23 2024-03-24 23:00:44.633614
+app.py:300 #INFO     [2024-03-24 22:16:44,879] - app.main - Task frame 0 set
+app.py:235 #INFO     [2024-03-24 22:16:59,903] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:18:35,800] - app.main - Setting a voice reminder by commend \\:
+нагадай мені попити чай о 22 20
+reminder.py:79 #INFO     [2024-03-24 22:18:35,881] - reminder - Getting datetime and text from voice reminder:
+нагадай мені попити чай о 22 20
+app.py:572 #INFO     [2024-03-24 22:18:35,929] - app.main - Got reminder settings 2024-03-24 23:00:35.929315, нагадай мені попити чай о 22 20, None
+app.py:303 #INFO     [2024-03-24 22:18:36,000] - app.main - Creating task нагадай мені попити чай о 22 20 2024-03-24 23:00:35.929315
+app.py:265 #INFO     [2024-03-24 22:18:36,069] - app.main - Schedule task 1 нагадай мені попити чай о 22 20 2024-03-24 23:00:35.929315
+app.py:275 #INFO     [2024-03-24 22:18:36,123] - app.main - Setting task 1 frame UI: нагадай мені попити чай о 22 20 2024-03-24 23:00:35.929315
+app.py:300 #INFO     [2024-03-24 22:18:36,174] - app.main - Task frame 1 set
+app.py:235 #INFO     [2024-03-24 22:18:44,457] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:19:10,960] - app.main - Setting a voice reminder by commend \\:
+нагадай мені попити чай у 22 години 20 хвилин
+reminder.py:79 #INFO     [2024-03-24 22:19:11,035] - reminder - Getting datetime and text from voice reminder:
+нагадай мені попити чай у 22 години 20 хвилин
+app.py:228 #INFO     [2024-03-24 22:21:00,125] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:21:01,759] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:21:02,263] - geocoder.base - Requested http://ipinfo.io/json
+app.py:570 #INFO     [2024-03-24 22:21:34,075] - app.main - Setting a voice reminder by commend \\:
+попити чай через 2 хвилини
+reminder.py:79 #INFO     [2024-03-24 22:21:34,093] - reminder - Getting datetime and text from voice reminder:
+попити чай через 2 хвилини
+app.py:572 #INFO     [2024-03-24 22:21:34,125] - app.main - Got reminder settings 2024-03-24 22:23:34.125880, попити чай, None
+app.py:303 #INFO     [2024-03-24 22:21:34,153] - app.main - Creating task попити чай 2024-03-24 22:23:34.125880
+app.py:265 #INFO     [2024-03-24 22:21:34,170] - app.main - Schedule task 0 попити чай 2024-03-24 22:23:34.125880
+app.py:275 #INFO     [2024-03-24 22:21:34,198] - app.main - Setting task 0 frame UI: попити чай 2024-03-24 22:23:34.125880
+app.py:300 #INFO     [2024-03-24 22:21:34,234] - app.main - Task frame 0 set
+app.py:235 #INFO     [2024-03-24 22:21:43,966] - app.main - Rebuilding task frames
+app.py:534 #INFO     [2024-03-24 22:22:09,312] - app.main - Пошук у вікіпедії
+app.py:547 #ERROR    [2024-03-24 22:22:09,440] - app.main - Сталася помилка: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BF%D0%BE%D0%BF%D0%B8%D1%82%D0%B8+%D1%87%D0%B5%D1%80%D0%B5%D0%B7+70+%D1%85%D0%B2%D0%B8%D0%BB%D0%B8%D0%BD&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001FF4CB07C50>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "C:\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x000001FF4CB07C50>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BF%D0%BE%D0%BF%D0%B8%D1%82%D0%B8+%D1%87%D0%B5%D1%80%D0%B5%D0%B7+70+%D1%85%D0%B2%D0%B8%D0%BB%D0%B8%D0%BD&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001FF4CB07C50>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\My-assistent\app.py", line 538, in search_in_wiki
+    page = wikipedia.page(question)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 270, in page
+    results, suggestion = search(title, results=1, suggestion=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\util.py", line 28, in __call__
+    ret = self._cache[key] = self.fn(*args, **kwargs)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 103, in search
+    raw_results = _wiki_request(search_params)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 737, in _wiki_request
+    r = requests.get(API_URL, params=params, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BF%D0%BE%D0%BF%D0%B8%D1%82%D0%B8+%D1%87%D0%B5%D1%80%D0%B5%D0%B7+70+%D1%85%D0%B2%D0%B8%D0%BB%D0%B8%D0%BD&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001FF4CB07C50>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+app.py:235 #INFO     [2024-03-24 22:22:19,159] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:22:35,101] - app.main - Setting a voice reminder by commend \\:
+попити через 70 хвилин
+reminder.py:79 #INFO     [2024-03-24 22:22:35,129] - reminder - Getting datetime and text from voice reminder:
+попити через 70 хвилин
+app.py:572 #INFO     [2024-03-24 22:22:35,151] - app.main - Got reminder settings 2024-03-24 23:32:35.151672, попити, None
+app.py:303 #INFO     [2024-03-24 22:22:35,173] - app.main - Creating task попити 2024-03-24 23:32:35.151672
+app.py:265 #INFO     [2024-03-24 22:22:35,190] - app.main - Schedule task 1 попити 2024-03-24 23:32:35.151672
+app.py:275 #INFO     [2024-03-24 22:22:35,211] - app.main - Setting task 1 frame UI: попити 2024-03-24 23:32:35.151672
+app.py:300 #INFO     [2024-03-24 22:22:35,227] - app.main - Task frame 1 set
+app.py:235 #INFO     [2024-03-24 22:22:56,910] - app.main - Rebuilding task frames
+playsound.py:63 #ERROR    [2024-03-24 22:23:34,818] - playsound - 
+    Error 275 for command:
+        open beep.mp3
+    Данный файл не найден. Проверьте, что путь и имя файла указаны верно.
+playsound.py:63 #ERROR    [2024-03-24 22:23:34,840] - playsound - 
+    Error 263 for command:
+        close beep.mp3
+    Указанное устройство не открыто или не опознается интерфейсом MCI.
+playsound.py:79 #WARNING  [2024-03-24 22:23:34,872] - playsound - Failed to close the file: beep.mp3
+job.py:110 #ERROR    [2024-03-24 22:23:34,894] - scheduler - Unhandled exception in `scheduler.Job(<JobType.CYCLIC: 1>, [datetime.timedelta(0)], <bound method AppUI.remind_task of <__main__.AppUI object at 0x000001FF4CA74D90>>, (0, 'попити чай'), {}, 1, 1, False, datetime.datetime(2024, 3, 24, 22, 23, 34, 125880), None, False, None, None)`!
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\scheduler\threading\job.py", line 108, in _exec
+    self._BaseJob__handle(*self._BaseJob__args, **self._BaseJob__kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\My-assistent\app.py", line 253, in remind_task
+    playsound(REMINDER_SOUND_PATH)
+  File "C:\Python311\Lib\site-packages\playsound.py", line 72, in _playsoundWin
+    winCommand(u'open {}'.format(sound))
+  File "C:\Python311\Lib\site-packages\playsound.py", line 64, in winCommand
+    raise PlaysoundException(exceptionMessage)
+playsound.PlaysoundException: 
+    Error 275 for command:
+        open beep.mp3
+    Данный файл не найден. Проверьте, что путь и имя файла указаны верно.
+app.py:235 #INFO     [2024-03-24 22:23:40,086] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 22:24:24,658] - app.main - Rebuilding task frames
+app.py:570 #INFO     [2024-03-24 22:24:26,993] - app.main - Setting a voice reminder by commend \\:
+поїсти сьогодні в 22 години 35 хвилин
+reminder.py:79 #INFO     [2024-03-24 22:24:27,015] - reminder - Getting datetime and text from voice reminder:
+поїсти сьогодні в 22 години 35 хвилин
+app.py:228 #INFO     [2024-03-24 22:25:16,755] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:25:18,344] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:25:18,794] - geocoder.base - Requested http://ipinfo.io/json
+app.py:570 #INFO     [2024-03-24 22:25:46,446] - app.main - Setting a voice reminder by commend \\:
+нагадай мені попити через 1 хвилину
+reminder.py:79 #INFO     [2024-03-24 22:25:46,473] - reminder - Getting datetime and text from voice reminder:
+нагадай мені попити через 1 хвилину
+app.py:572 #INFO     [2024-03-24 22:25:46,492] - app.main - Got reminder settings 2024-03-24 22:26:46.491563, нагадай мені попити, None
+app.py:303 #INFO     [2024-03-24 22:25:46,514] - app.main - Creating task нагадай мені попити 2024-03-24 22:26:46.491563
+app.py:265 #INFO     [2024-03-24 22:25:46,542] - app.main - Schedule task 0 нагадай мені попити 2024-03-24 22:26:46.491563
+app.py:275 #INFO     [2024-03-24 22:25:46,580] - app.main - Setting task 0 frame UI: нагадай мені попити 2024-03-24 22:26:46.491563
+app.py:300 #INFO     [2024-03-24 22:25:46,623] - app.main - Task frame 0 set
+app.py:235 #INFO     [2024-03-24 22:26:26,080] - app.main - Rebuilding task frames
+app.py:235 #INFO     [2024-03-24 22:26:40,312] - app.main - Rebuilding task frames
+playsound.py:63 #ERROR    [2024-03-24 22:26:47,465] - playsound - 
+    Error 263 for command:
+        open beep.mp3
+    Указанное устройство не открыто или не опознается интерфейсом MCI.
+playsound.py:63 #ERROR    [2024-03-24 22:26:47,505] - playsound - 
+    Error 263 for command:
+        close beep.mp3
+    Указанное устройство не открыто или не опознается интерфейсом MCI.
+playsound.py:79 #WARNING  [2024-03-24 22:26:47,555] - playsound - Failed to close the file: beep.mp3
+job.py:110 #ERROR    [2024-03-24 22:26:47,597] - scheduler - Unhandled exception in `scheduler.Job(<JobType.CYCLIC: 1>, [datetime.timedelta(0)], <bound method AppUI.remind_task of <__main__.AppUI object at 0x000001788B45CD90>>, (0, 'нагадай мені попити'), {}, 1, 1, False, datetime.datetime(2024, 3, 24, 22, 26, 46, 491563), None, False, None, None)`!
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\scheduler\threading\job.py", line 108, in _exec
+    self._BaseJob__handle(*self._BaseJob__args, **self._BaseJob__kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\My-assistent\app.py", line 253, in remind_task
+    playsound(REMINDER_SOUND_PATH)
+  File "C:\Python311\Lib\site-packages\playsound.py", line 72, in _playsoundWin
+    winCommand(u'open {}'.format(sound))
+  File "C:\Python311\Lib\site-packages\playsound.py", line 64, in winCommand
+    raise PlaysoundException(exceptionMessage)
+playsound.PlaysoundException: 
+    Error 263 for command:
+        open beep.mp3
+    Указанное устройство не открыто или не опознается интерфейсом MCI.
+app.py:228 #INFO     [2024-03-24 22:28:36,093] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:28:37,818] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:28:38,237] - geocoder.base - Requested http://ipinfo.io/json
+app.py:570 #INFO     [2024-03-24 22:29:13,204] - app.main - Setting a voice reminder by commend \\:
+попити через 1 хвилину
+reminder.py:79 #INFO     [2024-03-24 22:29:13,237] - reminder - Getting datetime and text from voice reminder:
+попити через 1 хвилину
+app.py:572 #INFO     [2024-03-24 22:29:13,271] - app.main - Got reminder settings 2024-03-24 22:30:13.271564, попити, None
+app.py:303 #INFO     [2024-03-24 22:29:13,294] - app.main - Creating task попити 2024-03-24 22:30:13.271564
+app.py:265 #INFO     [2024-03-24 22:29:13,321] - app.main - Schedule task 0 попити 2024-03-24 22:30:13.271564
+app.py:275 #INFO     [2024-03-24 22:29:13,354] - app.main - Setting task 0 frame UI: попити 2024-03-24 22:30:13.271564
+app.py:300 #INFO     [2024-03-24 22:29:13,393] - app.main - Task frame 0 set
+playsound.py:63 #ERROR    [2024-03-24 22:30:13,727] - playsound - 
+    Error 259 for command:
+        play "C:\My-assistent\beep.mp3" wait
+    Указанный параметр команды не распознан драйвером.
+job.py:110 #ERROR    [2024-03-24 22:30:13,760] - scheduler - Unhandled exception in `scheduler.Job(<JobType.CYCLIC: 1>, [datetime.timedelta(0)], <bound method AppUI.remind_task of <__main__.AppUI object at 0x0000023CE565A990>>, (0, 'попити'), {}, 1, 1, False, datetime.datetime(2024, 3, 24, 22, 30, 13, 271564), None, False, None, None)`!
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\scheduler\threading\job.py", line 108, in _exec
+    self._BaseJob__handle(*self._BaseJob__args, **self._BaseJob__kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\My-assistent\app.py", line 253, in remind_task
+    playsound(REMINDER_SOUND_PATH)
+  File "C:\Python311\Lib\site-packages\playsound.py", line 73, in _playsoundWin
+    winCommand(u'play {}{}'.format(sound, ' wait' if block else ''))
+  File "C:\Python311\Lib\site-packages\playsound.py", line 64, in winCommand
+    raise PlaysoundException(exceptionMessage)
+playsound.PlaysoundException: 
+    Error 259 for command:
+        play "C:\My-assistent\beep.mp3" wait
+    Указанный параметр команды не распознан драйвером.
+app.py:228 #INFO     [2024-03-24 22:32:50,257] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:32:54,705] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:32:55,117] - geocoder.base - Requested http://ipinfo.io/json
+app.py:573 #INFO     [2024-03-24 22:33:18,181] - app.main - Setting a voice reminder by commend \\:
+попити через хвилину
+reminder.py:79 #INFO     [2024-03-24 22:33:18,200] - reminder - Getting datetime and text from voice reminder:
+попити через хвилину
+reminder.py:63 #ERROR    [2024-03-24 22:33:18,219] - reminder - Can't find numeric word in words:
+['попити', 'через', 'хвилину']
+app.py:575 #INFO     [2024-03-24 22:33:18,242] - app.main - Got reminder settings None, None, Не вдається знайти числове слово в рядку:
+{words}
+app.py:573 #INFO     [2024-03-24 22:33:39,835] - app.main - Setting a voice reminder by commend \\:
+попити через 1 хвилину
+reminder.py:79 #INFO     [2024-03-24 22:33:39,861] - reminder - Getting datetime and text from voice reminder:
+попити через 1 хвилину
+app.py:575 #INFO     [2024-03-24 22:33:39,883] - app.main - Got reminder settings 2024-03-24 22:34:39.883051, попити, None
+app.py:306 #INFO     [2024-03-24 22:33:39,914] - app.main - Creating task попити 2024-03-24 22:34:39.883051
+app.py:268 #INFO     [2024-03-24 22:33:39,931] - app.main - Schedule task 0 попити 2024-03-24 22:34:39.883051
+app.py:278 #INFO     [2024-03-24 22:33:39,964] - app.main - Setting task 0 frame UI: попити 2024-03-24 22:34:39.883051
+app.py:303 #INFO     [2024-03-24 22:33:39,982] - app.main - Task frame 0 set
+app.py:235 #INFO     [2024-03-24 22:33:46,360] - app.main - Rebuilding task frames
+job.py:110 #ERROR    [2024-03-24 22:34:41,687] - scheduler - Unhandled exception in `scheduler.Job(<JobType.CYCLIC: 1>, [datetime.timedelta(0)], <bound method AppUI.remind_task of <__main__.AppUI object at 0x000002E89CB6CD90>>, (0, 'попити'), {}, 1, 1, False, datetime.datetime(2024, 3, 24, 22, 34, 39, 883051), None, False, None, None)`!
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\scheduler\threading\job.py", line 108, in _exec
+    self._BaseJob__handle(*self._BaseJob__args, **self._BaseJob__kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\My-assistent\app.py", line 255, in remind_task
+    sound = AudioSegment.from_file(REMINDER_SOUND_PATH)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\pydub\audio_segment.py", line 728, in from_file
+    info = mediainfo_json(orig_file, read_ahead_limit=read_ahead_limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\pydub\utils.py", line 274, in mediainfo_json
+    res = Popen(command, stdin=stdin_parameter, stdout=PIPE, stderr=PIPE)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Python311\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+app.py:228 #INFO     [2024-03-24 22:49:36,042] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:49:37,743] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:49:38,107] - geocoder.base - Requested http://ipinfo.io/json
+app.py:573 #INFO     [2024-03-24 22:50:26,067] - app.main - Setting a voice reminder by commend \\:
+попити через 1 хвилину
+reminder.py:79 #INFO     [2024-03-24 22:50:26,094] - reminder - Getting datetime and text from voice reminder:
+попити через 1 хвилину
+app.py:575 #INFO     [2024-03-24 22:50:26,121] - app.main - Got reminder settings 2024-03-24 22:51:26.121990, попити, None
+app.py:306 #INFO     [2024-03-24 22:50:26,139] - app.main - Creating task попити 2024-03-24 22:51:26.121990
+app.py:268 #INFO     [2024-03-24 22:50:26,166] - app.main - Schedule task 0 попити 2024-03-24 22:51:26.121990
+app.py:278 #INFO     [2024-03-24 22:50:26,198] - app.main - Setting task 0 frame UI: попити 2024-03-24 22:51:26.121990
+app.py:303 #INFO     [2024-03-24 22:50:26,226] - app.main - Task frame 0 set
+job.py:110 #ERROR    [2024-03-24 22:51:26,348] - scheduler - Unhandled exception in `scheduler.Job(<JobType.CYCLIC: 1>, [datetime.timedelta(0)], <bound method AppUI.remind_task of <__main__.AppUI object at 0x0000024FA099AD50>>, (0, 'попити'), {}, 1, 1, False, datetime.datetime(2024, 3, 24, 22, 51, 26, 121990), None, False, None, None)`!
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\scheduler\threading\job.py", line 108, in _exec
+    self._BaseJob__handle(*self._BaseJob__args, **self._BaseJob__kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\My-assistent\app.py", line 255, in remind_task
+    sound_effect.setSource(QUrl.fromLocalFile(REMINDER_SOUND_PATH))
+                           ^^^^
+NameError: name 'QUrl' is not defined
+app.py:228 #INFO     [2024-03-24 22:59:11,967] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 22:59:13,117] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 22:59:13,321] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 23:03:14,649] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 23:03:17,658] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 23:03:18,065] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 23:12:10,537] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 23:12:13,525] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 23:12:14,046] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 23:40:59,343] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-24 23:48:33,545] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 23:48:35,137] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 23:48:35,552] - geocoder.base - Requested http://ipinfo.io/json
+app.py:534 #INFO     [2024-03-24 23:55:09,244] - app.main - Пошук у вікіпедії
+app.py:547 #ERROR    [2024-03-24 23:55:09,531] - app.main - Сталася помилка: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BA%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D1%8C&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60472CD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "C:\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000023E60472CD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BA%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D1%8C&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60472CD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\My-assistent\app.py", line 538, in search_in_wiki
+    page = wikipedia.page(question)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 270, in page
+    results, suggestion = search(title, results=1, suggestion=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\util.py", line 28, in __call__
+    ret = self._cache[key] = self.fn(*args, **kwargs)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 103, in search
+    raw_results = _wiki_request(search_params)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 737, in _wiki_request
+    r = requests.get(API_URL, params=params, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BA%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D1%8C&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60472CD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+app.py:534 #INFO     [2024-03-24 23:55:26,673] - app.main - Пошук у вікіпедії
+app.py:547 #ERROR    [2024-03-24 23:55:26,711] - app.main - Сталася помилка: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BF%D1%80%D0%B8%D0%B2%D1%96%D1%82&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60A40790>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "C:\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000023E60A40790>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BF%D1%80%D0%B8%D0%B2%D1%96%D1%82&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60A40790>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\My-assistent\app.py", line 538, in search_in_wiki
+    page = wikipedia.page(question)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 270, in page
+    results, suggestion = search(title, results=1, suggestion=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\util.py", line 28, in __call__
+    ret = self._cache[key] = self.fn(*args, **kwargs)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 103, in search
+    raw_results = _wiki_request(search_params)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 737, in _wiki_request
+    r = requests.get(API_URL, params=params, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BF%D1%80%D0%B8%D0%B2%D1%96%D1%82&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60A40790>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+app.py:534 #INFO     [2024-03-24 23:55:38,712] - app.main - Пошук у вікіпедії
+app.py:547 #ERROR    [2024-03-24 23:55:38,767] - app.main - Сталася помилка: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D1%82%D0%B0%D0%BD%D0%BA&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60A42990>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "C:\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000023E60A42990>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D1%82%D0%B0%D0%BD%D0%BA&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60A42990>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\My-assistent\app.py", line 538, in search_in_wiki
+    page = wikipedia.page(question)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 270, in page
+    results, suggestion = search(title, results=1, suggestion=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\util.py", line 28, in __call__
+    ret = self._cache[key] = self.fn(*args, **kwargs)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 103, in search
+    raw_results = _wiki_request(search_params)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 737, in _wiki_request
+    r = requests.get(API_URL, params=params, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D1%82%D0%B0%D0%BD%D0%BA&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60A42990>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+app.py:534 #INFO     [2024-03-24 23:55:51,243] - app.main - Пошук у вікіпедії
+app.py:547 #ERROR    [2024-03-24 23:55:51,306] - app.main - Сталася помилка: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BD%D0%BE%D1%80%D0%B2%D0%B5%D0%B3%D1%96%D1%8F&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60475FD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "C:\Python311\Lib\http\client.py", line 1289, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Python311\Lib\http\client.py", line 1048, in _send_output
+    self.send(msg)
+  File "C:\Python311\Lib\http\client.py", line 986, in send
+    self.connect()
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000023E60475FD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BD%D0%BE%D1%80%D0%B2%D0%B5%D0%B3%D1%96%D1%8F&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60475FD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\My-assistent\app.py", line 538, in search_in_wiki
+    page = wikipedia.page(question)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 270, in page
+    results, suggestion = search(title, results=1, suggestion=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\util.py", line 28, in __call__
+    ret = self._cache[key] = self.fn(*args, **kwargs)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 103, in search
+    raw_results = _wiki_request(search_params)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wikipedia\wikipedia.py", line 737, in _wiki_request
+    r = requests.get(API_URL, params=params, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='ua.wikipedia.org', port=80): Max retries exceeded with url: /w/api.php?list=search&srprop=&srlimit=1&limit=1&srsearch=%D0%BD%D0%BE%D1%80%D0%B2%D0%B5%D0%B3%D1%96%D1%8F&srinfo=suggestion&format=json&action=query (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023E60475FD0>: Failed to resolve 'ua.wikipedia.org' ([Errno 11001] getaddrinfo failed)"))
+app.py:228 #INFO     [2024-03-24 23:58:13,884] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-24 23:58:16,981] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-24 23:58:17,483] - geocoder.base - Requested http://ipinfo.io/json
+app.py:534 #INFO     [2024-03-24 23:58:33,645] - app.main - Пошук у вікіпедії
+app.py:534 #INFO     [2024-03-24 23:59:22,909] - app.main - Пошук у вікіпедії
+app.py:228 #INFO     [2024-03-25 00:16:01,469] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 00:16:03,468] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 00:16:03,751] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-25 00:22:18,503] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 00:22:20,486] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 00:22:20,838] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-25 00:41:18,983] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 00:41:21,231] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 00:41:21,672] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-25 00:44:09,542] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 00:44:10,892] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 00:44:11,372] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-25 00:45:48,044] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 00:45:49,275] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 00:45:49,701] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-25 10:50:51,577] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 10:50:55,231] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:50:55,709] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:51:56,965] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:52:57,871] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:05,235] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:07,385] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:09,535] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:11,277] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:14,556] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:17,524] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:20,390] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:23,565] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:26,740] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:29,912] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:33,193] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:36,369] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:39,445] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:41,386] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:45,069] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:47,629] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:51,417] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:54,181] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:56,435] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:53:59,506] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:02,580] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:05,651] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:08,826] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:11,805] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:14,866] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:17,840] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:21,118] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:23,775] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:27,155] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:29,920] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:32,889] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:35,039] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:36,780] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:38,213] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:40,771] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:43,949] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:47,430] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:50,503] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:53,575] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:54:57,258] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:00,229] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:03,402] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:06,576] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:09,444] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:12,519] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:15,795] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:18,969] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:22,140] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:25,315] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:28,700] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:32,072] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:35,146] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:38,011] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:41,497] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:44,569] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:47,458] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:50,710] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:54,196] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:57,058] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:55:59,824] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-25 10:56:26,049] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 10:56:27,916] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 10:56:28,430] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 11:02:51,042] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 11:02:52,727] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 11:02:53,107] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 11:18:00,454] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 11:24:14,334] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 11:24:16,997] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 11:24:17,402] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 11:39:23,226] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 11:54:28,225] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:09:34,253] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:13:34,985] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:13:38,408] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:13:38,801] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:19:27,850] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:19:30,558] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:19:30,938] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:23:14,153] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:23:15,723] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:23:16,141] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:25:10,467] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:25:12,261] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:25:12,642] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:28:51,413] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:28:53,225] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:28:53,732] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:30:53,129] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:30:55,079] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:30:55,600] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:36:45,762] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:36:47,635] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:36:48,038] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:38:35,424] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:38:37,117] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:38:37,519] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 12:43:52,560] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 12:43:54,384] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:43:54,734] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 12:59:01,064] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 15:15:04,037] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 15:15:06,179] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 15:15:06,600] - geocoder.base - Requested http://ipinfo.io/json
+app.py:258 #INFO     [2024-03-25 15:21:15,965] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 15:21:18,013] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 15:21:18,370] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 15:22:27,793] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 15:22:28,930] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 15:22:29,318] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 15:23:46,131] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 15:23:47,113] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 15:23:47,560] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:00:02,337] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:00:04,287] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:00:04,722] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:06:11,860] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:06:13,927] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:06:14,267] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:13:27,189] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:13:28,359] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:13:28,717] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:19:29,422] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:19:30,588] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:19:31,070] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:25:24,152] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:25:26,560] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:25:26,765] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:26:21,182] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:26:23,099] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:26:23,598] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:30:33,960] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:30:35,826] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:30:36,235] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:36:04,691] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:36:06,465] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:36:06,895] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 16:42:21,200] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 16:42:24,311] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:42:24,818] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 16:57:34,125] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 17:01:31,406] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 17:01:34,634] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 17:01:34,990] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 17:05:58,959] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 17:06:00,635] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 17:06:01,002] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 17:21:06,821] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 17:36:11,313] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 17:51:16,826] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 18:06:21,420] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 18:21:26,937] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 18:36:31,537] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 18:51:37,255] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:06:42,976] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:12:12,733] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:12:16,188] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:12:16,833] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:18:39,593] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:18:42,043] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:18:42,316] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:20:25,744] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:20:27,630] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:20:28,025] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:23:24,132] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:23:26,189] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:23:26,554] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:38:41,568] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:44:11,578] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:44:13,415] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:44:13,952] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:45:10,773] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:45:12,205] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:45:12,810] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:47:00,037] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:47:01,657] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:47:02,080] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:48:17,112] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:48:18,818] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:48:19,217] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 19:50:19,867] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 19:50:21,528] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 19:50:21,950] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:05:48,686] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:21:27,245] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 20:24:16,801] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 20:24:19,028] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:24:19,467] - geocoder.base - Requested http://ipinfo.io/json
+app.py:264 #INFO     [2024-03-25 20:25:07,532] - app.main - Rebuilding task frames
+app.py:257 #INFO     [2024-03-25 20:26:08,283] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 20:26:10,158] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:26:10,499] - geocoder.base - Requested http://ipinfo.io/json
+app.py:257 #INFO     [2024-03-25 20:40:25,742] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 20:40:27,791] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:40:28,165] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 20:46:00,687] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 20:46:01,870] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:46:02,259] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 20:51:58,799] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 20:51:59,765] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:52:00,120] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 20:58:55,957] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 20:58:56,947] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 20:58:57,347] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 21:00:46,563] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 21:00:47,550] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 21:00:48,272] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 21:15:06,540] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 21:15:08,533] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 21:15:08,979] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 21:30:20,051] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 21:40:16,136] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 21:40:18,021] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 21:40:18,551] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 21:41:00,015] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 21:41:01,851] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 21:41:02,212] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 21:56:06,947] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:01:45,016] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:01:47,235] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:01:47,608] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:08:52,158] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:08:54,199] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:08:54,649] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:13:59,658] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:14:01,732] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:14:02,141] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:21:09,437] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:21:11,370] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:21:11,757] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:26:40,532] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:26:42,471] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:26:42,876] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:37:41,076] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:37:43,039] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:37:43,456] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:48:01,659] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:48:03,698] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:48:04,040] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:51:12,837] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:51:14,544] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:51:14,841] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:53:38,223] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:53:40,610] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:53:41,078] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:55:22,502] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:55:24,306] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:55:24,645] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 22:58:27,732] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 22:58:29,429] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 22:58:29,881] - geocoder.base - Requested http://ipinfo.io/json
+app.py:286 #INFO     [2024-03-25 23:04:40,073] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 23:04:41,862] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 23:04:42,205] - geocoder.base - Requested http://ipinfo.io/json
+app.py:287 #INFO     [2024-03-25 23:07:40,360] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 23:07:42,800] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 23:07:43,221] - geocoder.base - Requested http://ipinfo.io/json
+app.py:287 #INFO     [2024-03-25 23:14:01,341] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 23:14:03,508] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 23:14:03,927] - geocoder.base - Requested http://ipinfo.io/json
+app.py:287 #INFO     [2024-03-25 23:16:28,661] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 23:16:30,764] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 23:16:31,354] - geocoder.base - Requested http://ipinfo.io/json
+app.py:288 #INFO     [2024-03-25 23:28:41,826] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-25 23:28:43,726] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-25 23:28:44,127] - geocoder.base - Requested http://ipinfo.io/json
+app.py:325 #INFO     [2024-03-26 00:20:48,004] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-26 00:20:49,963] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-26 00:20:50,485] - geocoder.base - Requested http://ipinfo.io/json
+app.py:325 #INFO     [2024-03-26 00:22:33,848] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-26 00:22:35,782] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-26 00:22:36,441] - geocoder.base - Requested http://ipinfo.io/json
+app.py:331 #INFO     [2024-03-26 00:27:17,023] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-26 00:27:18,817] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-26 00:27:19,285] - geocoder.base - Requested http://ipinfo.io/json
+app.py:331 #INFO     [2024-03-26 00:31:39,738] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-26 00:31:41,500] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-26 00:31:41,889] - geocoder.base - Requested http://ipinfo.io/json
+app.py:331 #INFO     [2024-03-26 00:37:13,176] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-26 00:37:14,744] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-26 00:37:15,146] - geocoder.base - Requested http://ipinfo.io/json
+app.py:354 #INFO     [2024-03-26 01:01:48,197] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-26 01:01:50,439] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-26 01:01:50,823] - geocoder.base - Requested http://ipinfo.io/json
+app.py:351 #INFO     [2024-03-26 01:06:01,198] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-26 01:06:02,888] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-26 01:06:03,325] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-27 13:55:58,359] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-27 13:55:59,745] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-27 13:55:59,944] - geocoder.base - Requested http://ipinfo.io/json
+app.py:228 #INFO     [2024-03-27 14:07:15,997] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-27 14:07:17,942] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-27 14:07:18,137] - geocoder.base - Requested http://ipinfo.io/json
+app.py:368 #INFO     [2024-03-28 01:00:59,259] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 01:01:01,894] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 01:01:02,823] - geocoder.base - Requested http://ipinfo.io/json
+app.py:341 #INFO     [2024-03-28 01:04:10,499] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 01:04:12,379] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 01:04:12,802] - geocoder.base - Requested http://ipinfo.io/json
+app.py:368 #INFO     [2024-03-28 01:09:04,873] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 01:09:07,413] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 01:09:07,880] - geocoder.base - Requested http://ipinfo.io/json
+app.py:368 #INFO     [2024-03-28 01:22:11,941] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 01:22:17,733] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 01:22:18,195] - geocoder.base - Requested http://ipinfo.io/json
+app.py:368 #INFO     [2024-03-28 11:05:45,597] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 11:05:47,397] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 11:05:47,799] - geocoder.base - Requested http://ipinfo.io/json
+app.py:368 #INFO     [2024-03-28 11:07:51,860] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 11:07:53,305] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 11:07:53,748] - geocoder.base - Requested http://ipinfo.io/json
+app.py:368 #INFO     [2024-03-28 11:09:06,865] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 11:09:08,412] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 11:09:08,756] - geocoder.base - Requested http://ipinfo.io/json
+app.py:368 #INFO     [2024-03-28 11:22:06,179] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 11:22:07,697] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 11:22:08,195] - geocoder.base - Requested http://ipinfo.io/json
+app.py:710 #INFO     [2024-03-28 11:22:57,636] - app.main - Setting a voice reminder by commend \\:
+почистити картоплю сьогодні в 11 годин 23 хвилини
+reminder.py:79 #INFO     [2024-03-28 11:22:57,657] - reminder - Getting datetime and text from voice reminder:
+почистити картоплю сьогодні в 11 годин 23 хвилини
+app.py:712 #INFO     [2024-03-28 11:22:57,680] - app.main - Got reminder settings 2024-03-28 11:23:57.679143, почистити картоплю, None
+app.py:443 #INFO     [2024-03-28 11:22:57,699] - app.main - Creating task почистити картоплю 2024-03-28 11:23:57.679143
+app.py:405 #INFO     [2024-03-28 11:22:57,716] - app.main - Schedule task 0 почистити картоплю 2024-03-28 11:23:57.679143
+app.py:415 #INFO     [2024-03-28 11:22:57,750] - app.main - Setting task 0 frame UI: почистити картоплю 2024-03-28 11:23:57.679143
+app.py:440 #INFO     [2024-03-28 11:22:57,801] - app.main - Task frame 0 set
+app.py:375 #INFO     [2024-03-28 11:23:37,753] - app.main - Rebuilding task frames
+app.py:375 #INFO     [2024-03-28 11:24:03,193] - app.main - Rebuilding task frames
+app.py:415 #INFO     [2024-03-28 11:24:03,219] - app.main - Setting task 0 frame UI:  None
+app.py:440 #INFO     [2024-03-28 11:24:03,303] - app.main - Task frame 0 set
+app.py:710 #INFO     [2024-03-28 11:24:11,978] - app.main - Setting a voice reminder by commend \\:
+привіт через хвилину
+reminder.py:79 #INFO     [2024-03-28 11:24:12,000] - reminder - Getting datetime and text from voice reminder:
+привіт через хвилину
+reminder.py:63 #ERROR    [2024-03-28 11:24:12,028] - reminder - Can't find numeric word in words:
+['привіт', 'через', 'хвилину']
+app.py:712 #INFO     [2024-03-28 11:24:12,050] - app.main - Got reminder settings None, None, Не вдається знайти числове слово в рядку:
+{words}
+app.py:710 #INFO     [2024-03-28 11:24:31,523] - app.main - Setting a voice reminder by commend \\:
+привіт через 1 хвилину
+reminder.py:79 #INFO     [2024-03-28 11:24:31,545] - reminder - Getting datetime and text from voice reminder:
+привіт через 1 хвилину
+app.py:712 #INFO     [2024-03-28 11:24:31,572] - app.main - Got reminder settings 2024-03-28 11:25:31.572002, привіт, None
+app.py:443 #INFO     [2024-03-28 11:24:31,589] - app.main - Creating task привіт 2024-03-28 11:25:31.572002
+app.py:405 #INFO     [2024-03-28 11:24:31,610] - app.main - Schedule task 1 привіт 2024-03-28 11:25:31.572002
+app.py:415 #INFO     [2024-03-28 11:24:31,642] - app.main - Setting task 1 frame UI: привіт 2024-03-28 11:25:31.572002
+app.py:440 #INFO     [2024-03-28 11:24:31,669] - app.main - Task frame 1 set
+app.py:375 #INFO     [2024-03-28 11:25:33,966] - app.main - Rebuilding task frames
+app.py:415 #INFO     [2024-03-28 11:25:33,982] - app.main - Setting task 1 frame UI:  None
+app.py:440 #INFO     [2024-03-28 11:25:34,111] - app.main - Task frame 1 set
+app.py:377 #INFO     [2024-03-28 11:33:10,889] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 11:33:12,719] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 11:33:13,185] - geocoder.base - Requested http://ipinfo.io/json
+app.py:719 #INFO     [2024-03-28 11:33:45,347] - app.main - Setting a voice reminder by commend \\:
+один через 1 хвилину
+reminder.py:79 #INFO     [2024-03-28 11:33:45,425] - reminder - Getting datetime and text from voice reminder:
+один через 1 хвилину
+app.py:721 #INFO     [2024-03-28 11:33:45,467] - app.main - Got reminder settings 2024-03-28 11:34:45.467287, один, None
+app.py:452 #INFO     [2024-03-28 11:33:45,508] - app.main - Creating task один 2024-03-28 11:34:45.467287
+app.py:414 #INFO     [2024-03-28 11:33:45,558] - app.main - Schedule task 0 один 2024-03-28 11:34:45.467287
+app.py:424 #INFO     [2024-03-28 11:33:45,627] - app.main - Setting task 0 frame UI: один 2024-03-28 11:34:45.467287
+app.py:449 #INFO     [2024-03-28 11:33:45,695] - app.main - Task frame 0 set
+app.py:384 #INFO     [2024-03-28 11:33:54,112] - app.main - Rebuilding task frames
+app.py:380 #INFO     [2024-03-28 11:36:35,285] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 11:36:36,969] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 11:36:37,396] - geocoder.base - Requested http://ipinfo.io/json
+app.py:722 #INFO     [2024-03-28 11:37:07,243] - app.main - Setting a voice reminder by commend \\:
+один через 1 хвилину
+reminder.py:79 #INFO     [2024-03-28 11:37:07,261] - reminder - Getting datetime and text from voice reminder:
+один через 1 хвилину
+app.py:724 #INFO     [2024-03-28 11:37:07,285] - app.main - Got reminder settings 2024-03-28 11:38:07.283462, один, None
+app.py:455 #INFO     [2024-03-28 11:37:07,307] - app.main - Creating task один 2024-03-28 11:38:07.283462
+app.py:417 #INFO     [2024-03-28 11:37:07,330] - app.main - Schedule task 0 один 2024-03-28 11:38:07.283462
+app.py:427 #INFO     [2024-03-28 11:37:07,357] - app.main - Setting task 0 frame UI: один 2024-03-28 11:38:07.283462
+app.py:452 #INFO     [2024-03-28 11:37:07,396] - app.main - Task frame 0 set
+app.py:387 #INFO     [2024-03-28 11:38:13,612] - app.main - Rebuilding task frames
+app.py:427 #INFO     [2024-03-28 11:38:13,645] - app.main - Setting task 0 frame UI:  None
+app.py:452 #INFO     [2024-03-28 11:38:13,777] - app.main - Task frame 0 set
+app.py:722 #INFO     [2024-03-28 11:38:31,617] - app.main - Setting a voice reminder by commend \\:
+привіт через 1 хвилину
+reminder.py:79 #INFO     [2024-03-28 11:38:31,649] - reminder - Getting datetime and text from voice reminder:
+привіт через 1 хвилину
+app.py:724 #INFO     [2024-03-28 11:38:31,678] - app.main - Got reminder settings 2024-03-28 11:39:31.678934, привіт, None
+app.py:455 #INFO     [2024-03-28 11:38:31,695] - app.main - Creating task привіт 2024-03-28 11:39:31.678934
+app.py:417 #INFO     [2024-03-28 11:38:31,716] - app.main - Schedule task 1 привіт 2024-03-28 11:39:31.678934
+app.py:427 #INFO     [2024-03-28 11:38:31,754] - app.main - Setting task 1 frame UI: привіт 2024-03-28 11:39:31.678934
+app.py:452 #INFO     [2024-03-28 11:38:31,788] - app.main - Task frame 1 set
+app.py:387 #INFO     [2024-03-28 11:39:37,091] - app.main - Rebuilding task frames
+app.py:427 #INFO     [2024-03-28 11:39:37,117] - app.main - Setting task 1 frame UI:  None
+app.py:452 #INFO     [2024-03-28 11:39:37,264] - app.main - Task frame 1 set
+app.py:380 #INFO     [2024-03-28 12:39:25,687] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 12:39:28,627] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 12:39:29,182] - geocoder.base - Requested http://ipinfo.io/json
+app.py:686 #INFO     [2024-03-28 12:40:30,061] - app.main - Пошук у вікіпедії
+app.py:380 #INFO     [2024-03-28 12:43:37,400] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 12:43:39,234] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 12:43:39,644] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 12:45:10,879] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 12:45:13,374] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 12:45:13,807] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 12:48:28,036] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 12:48:29,855] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 12:48:30,260] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 12:57:42,189] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 12:57:45,458] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 12:57:45,883] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:02:26,797] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:02:29,523] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:02:29,979] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:04:24,180] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:04:27,189] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:04:27,580] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:06:59,823] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:07:02,220] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:07:02,644] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:08:21,513] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:08:24,129] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:08:24,544] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:15:40,144] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:15:41,642] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:15:42,077] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:16:44,773] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:16:46,568] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:16:46,908] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:17:53,548] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:17:55,198] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:17:55,675] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:19:23,434] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:19:25,187] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:19:25,655] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:21:01,084] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:21:02,565] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:21:02,875] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:21:50,361] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:21:51,859] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:21:52,309] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:23:22,254] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:23:23,853] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:23:24,233] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:26:15,478] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:26:17,094] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:26:17,567] - geocoder.base - Requested http://ipinfo.io/json
+app.py:686 #INFO     [2024-03-28 13:27:06,741] - app.main - Пошук у вікіпедії
+app.py:380 #INFO     [2024-03-28 13:27:53,961] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:27:55,725] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:27:56,059] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:29:47,973] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:29:49,680] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:29:50,080] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:36:25,935] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:36:27,817] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:36:28,270] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:39:11,464] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:39:12,444] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:39:12,815] - geocoder.base - Requested http://ipinfo.io/json
+app.py:387 #INFO     [2024-03-28 13:39:45,838] - app.main - Rebuilding task frames
+app.py:722 #INFO     [2024-03-28 13:39:59,261] - app.main - Setting a voice reminder by commend \\:
+рп через 1 хвилину
+reminder.py:79 #INFO     [2024-03-28 13:39:59,277] - reminder - Getting datetime and text from voice reminder:
+рп через 1 хвилину
+app.py:724 #INFO     [2024-03-28 13:39:59,305] - app.main - Got reminder settings 2024-03-28 13:40:59.304825, рп, None
+app.py:455 #INFO     [2024-03-28 13:39:59,339] - app.main - Creating task рп 2024-03-28 13:40:59.304825
+app.py:417 #INFO     [2024-03-28 13:39:59,368] - app.main - Schedule task 0 рп 2024-03-28 13:40:59.304825
+app.py:427 #INFO     [2024-03-28 13:39:59,400] - app.main - Setting task 0 frame UI: рп 2024-03-28 13:40:59.304825
+app.py:452 #INFO     [2024-03-28 13:39:59,432] - app.main - Task frame 0 set
+app.py:387 #INFO     [2024-03-28 13:41:01,770] - app.main - Rebuilding task frames
+app.py:427 #INFO     [2024-03-28 13:41:01,826] - app.main - Setting task 0 frame UI:  None
+app.py:452 #INFO     [2024-03-28 13:41:02,022] - app.main - Task frame 0 set
+app.py:380 #INFO     [2024-03-28 13:53:47,115] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:53:48,828] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:53:49,194] - geocoder.base - Requested http://ipinfo.io/json
+app.py:686 #INFO     [2024-03-28 13:54:47,149] - app.main - Пошук у вікіпедії
+app.py:686 #INFO     [2024-03-28 13:54:54,667] - app.main - Пошук у вікіпедії
+app.py:380 #INFO     [2024-03-28 13:57:02,197] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:57:03,877] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:57:04,250] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:58:08,209] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:58:09,389] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:58:09,967] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 13:58:55,958] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 13:58:57,075] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 13:58:57,502] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:00:43,905] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:00:45,011] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:00:45,352] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:02:16,441] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:02:17,507] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:02:17,863] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:03:39,696] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:03:41,440] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:03:41,769] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:10:53,431] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:10:54,713] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:10:55,218] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:14:28,509] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:14:29,706] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:14:30,038] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:15:58,277] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:15:59,284] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:15:59,739] - geocoder.base - Requested http://ipinfo.io/json
+app.py:686 #INFO     [2024-03-28 14:18:38,936] - app.main - Пошук у вікіпедії
+app.py:380 #INFO     [2024-03-28 14:20:19,093] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:20:20,034] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:20:20,346] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:24:29,536] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:24:31,500] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:24:31,968] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:27:16,732] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:27:18,543] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:27:18,900] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 14:29:06,420] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 14:29:07,663] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 14:29:08,015] - geocoder.base - Requested http://ipinfo.io/json
+app.py:380 #INFO     [2024-03-28 15:27:47,103] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 15:27:50,435] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 15:27:50,756] - geocoder.base - Requested http://ipinfo.io/json
+app.py:437 #INFO     [2024-03-28 16:28:57,662] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 16:29:01,167] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 16:29:01,572] - geocoder.base - Requested http://ipinfo.io/json
+app.py:437 #INFO     [2024-03-28 16:52:49,040] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 16:52:52,420] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 16:52:52,830] - geocoder.base - Requested http://ipinfo.io/json
+app.py:450 #INFO     [2024-03-28 16:59:31,052] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 16:59:34,199] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 16:59:34,622] - geocoder.base - Requested http://ipinfo.io/json
+app.py:423 #INFO     [2024-03-28 17:02:20,181] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:02:22,919] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:02:23,399] - geocoder.base - Requested http://ipinfo.io/json
+app.py:423 #INFO     [2024-03-28 17:05:48,040] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:05:50,967] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:05:51,537] - geocoder.base - Requested http://ipinfo.io/json
+app.py:397 #INFO     [2024-03-28 17:08:28,831] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:08:31,707] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:08:32,005] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 17:11:36,753] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:11:39,604] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:11:40,010] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 17:14:51,074] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:14:53,845] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:14:54,353] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 17:16:18,434] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:16:20,969] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:16:21,475] - geocoder.base - Requested http://ipinfo.io/json
+base.py:499 #ERROR    [2024-03-28 17:31:32,674] - geocoder.base - Status code Unknown from http://ipinfo.io/json: ERROR - HTTPConnectionPool(host='ipinfo.io', port=80): Read timed out. (read timeout=5.0)
+app.py:401 #INFO     [2024-03-28 17:48:04,568] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:48:07,576] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:48:07,960] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 17:50:13,610] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 17:50:16,596] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 17:50:17,316] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 18:08:52,380] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 18:08:55,299] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 18:08:55,822] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 18:10:25,032] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 18:10:27,979] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 18:10:28,371] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 18:12:04,736] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 18:12:07,501] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 18:12:08,082] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 18:16:08,136] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 18:16:11,118] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 18:16:11,553] - geocoder.base - Requested http://ipinfo.io/json
+app.py:401 #INFO     [2024-03-28 18:26:41,403] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 18:26:44,581] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 18:26:44,994] - geocoder.base - Requested http://ipinfo.io/json
+app.py:405 #INFO     [2024-03-28 19:04:25,265] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 19:04:28,334] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 19:04:28,811] - geocoder.base - Requested http://ipinfo.io/json
+app.py:405 #INFO     [2024-03-28 21:12:45,987] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 21:12:49,799] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 21:12:50,288] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 21:27:58,426] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 21:43:24,021] - geocoder.base - Requested http://ipinfo.io/json
+app.py:405 #INFO     [2024-03-28 22:06:29,121] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 22:06:31,901] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 22:06:32,370] - geocoder.base - Requested http://ipinfo.io/json
+app.py:405 #INFO     [2024-03-28 22:49:00,849] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-28 22:49:04,187] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 22:49:04,764] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 23:04:12,421] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 23:19:17,459] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 23:34:28,255] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-28 23:49:51,530] - geocoder.base - Requested http://ipinfo.io/json
+app.py:405 #INFO     [2024-03-29 00:00:14,259] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 00:00:16,553] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 00:00:16,975] - geocoder.base - Requested http://ipinfo.io/json
+app.py:405 #INFO     [2024-03-29 00:33:00,252] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 00:33:02,686] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 00:33:03,112] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 01:29:10,303] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 01:29:14,219] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 01:29:14,719] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 01:33:16,443] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 01:33:18,330] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 01:33:18,758] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 19:27:03,516] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 19:27:06,635] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 19:27:07,277] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 19:27:15,236] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 19:27:16,932] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 19:27:17,633] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 19:38:12,992] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 19:38:16,017] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 19:38:16,443] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 19:41:17,369] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 19:41:20,009] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 19:41:20,650] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 19:44:56,696] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 19:44:59,770] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 19:45:00,197] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 20:01:12,144] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 20:01:15,034] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 20:01:15,463] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 20:23:36,688] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 20:23:39,539] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 20:23:40,030] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 20:34:59,996] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 20:35:02,967] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 20:35:03,382] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 20:41:25,108] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 20:41:28,388] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 20:41:28,792] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-29 21:51:33,770] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-29 21:51:36,190] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-29 21:51:36,631] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-30 20:21:46,108] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-30 20:21:48,145] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-30 20:21:48,576] - geocoder.base - Requested http://ipinfo.io/json
+app.py:406 #INFO     [2024-03-30 20:27:27,696] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-30 20:27:32,431] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-30 20:27:32,965] - geocoder.base - Requested http://ipinfo.io/json
+app.py:361 #INFO     [2024-03-30 20:46:12,966] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-30 20:46:14,731] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-30 20:46:15,102] - geocoder.base - Requested http://ipinfo.io/json
+app.py:361 #INFO     [2024-03-30 20:49:33,594] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-30 20:49:35,382] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-30 20:49:35,766] - geocoder.base - Requested http://ipinfo.io/json
+app.py:361 #INFO     [2024-03-30 20:56:35,688] - app.main - Creating task frames
+base.py:494 #INFO     [2024-03-30 20:56:37,663] - geocoder.base - Requested http://ipinfo.io/json
+base.py:494 #INFO     [2024-03-30 20:56:38,051] - geocoder.base - Requested http://ipinfo.io/json
